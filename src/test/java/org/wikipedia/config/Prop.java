@@ -34,8 +34,8 @@ public class Prop {
         @Key("browserstack.password")
         String getBrowserStackPassword();
 
-        @Key("browserstack.key")
-        String getBrowserStackKey();
+//        @Key("browserstack.key")
+//        String getBrowserStackKey();
 
         @Key("android.version")
         String getAndroidversion();
