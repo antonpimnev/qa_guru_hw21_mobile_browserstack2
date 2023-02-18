@@ -13,7 +13,7 @@ public class SearchTest extends TestBase {
     @Test
     @DisplayName("Поиск статей")
     void searchTest() {
-        back();
+        //back();
         step("Type search", () -> {
             $(id("org.wikipedia:id/search_container")).click();
             $(id("org.wikipedia:id/search_src_text")).setValue("BrowserStack");
