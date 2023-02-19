@@ -17,7 +17,6 @@ public class TopicTest extends TestBase {
     @Tag("android")
     @DisplayName("Открытие статьи")
     void openTopic() {
-        back();
         step("Type search", () -> {
             $(id("org.wikipedia:id/search_container")).click();
             $(id("org.wikipedia:id/search_src_text")).setValue("BrowserStack");
