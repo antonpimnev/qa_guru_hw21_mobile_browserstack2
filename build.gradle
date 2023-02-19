@@ -68,10 +68,10 @@ dependencies {
     )
 }
 
-test {
-    useJUnitPlatform()
-    systemProperties(System.getProperties())
-}
+//test {
+//    useJUnitPlatform()
+//    systemProperties(System.getProperties())
+//}
 
 tasks.withType(Test) {
     systemProperties(System.getProperties())
